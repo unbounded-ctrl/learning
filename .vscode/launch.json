@@ -5,7 +5,7 @@
       "name": "(gdb) Pipe Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/a.exe", // Replace with your program's path
+      "program": "${workspaceFolder}/a.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
@@ -35,14 +35,14 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/a.exe", // Replace with your program's path
+      "program": "${workspaceFolder}/a.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
       "environment": [],
       "externalConsole": false,
       "MIMode": "gdb",
-      "miDebuggerPath": "/path/to/gdb", // Replace with the actual path to gdb
+      "miDebuggerPath": "/path/to/gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
@@ -60,9 +60,9 @@
       "name": "(gdb) Attach",
       "type": "cppdbg",
       "request": "attach",
-      "program": "${workspaceFolder}/a.exe", // Replace with your program's path
+      "program": "${workspaceFolder}/a.exe",
       "MIMode": "gdb",
-      "miDebuggerPath": "/path/to/gdb", // Replace with the actual path to gdb
+      "miDebuggerPath": "/path/to/gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

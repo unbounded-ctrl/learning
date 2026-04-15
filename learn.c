@@ -1,23 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-void meow(int times)
-{
-    for (int i = 0; i < times; i++)
-    {
-        printf("meow\n");
-    }
-}
+int cube(double n);
 
 int main(void)
-{
-    int n;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-
-    for (int i = 0; i < n; i++)
-    {
-        meow(1);
-    }
-
+{ 
+    double num;
+    int result;
+    printf("whats your number?\n");
+    scanf("%lf",&num);
+    result=cube(num);
+    printf("the cube of %.2f is %d", num ,result);
     return 0;
+}
+
+
+int cube(double n)
+{
+    
+return n*n*n;
+
 }

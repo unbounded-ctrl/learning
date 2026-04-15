@@ -1,21 +1,25 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int main(void)
 {
-    int n;
-    while (true)
+    int n = 5; // Number of rows for the pyramid
+    for (int row = 0; row < n; row++)
     {
-        n = printf("whats n?");
-        scanf("%d", &n);
-        if (n >= 0)
+        // Print spaces for alignment
+        for (int space = 0; space < n - row - 1; space++)
         {
-            break;
+            printf("-");
         }
+
+        // Print the pyramid pattern
+        for (int col = 0; col < (2 * row + 1); col++)
+        {
+            printf("$");
+        }
+
+        // Move to the next line
+        printf("\n");
     }
-    for (int i = 0; i < n; n++)
-    {
-        printf("meow\n");
-    }
+
     return 0;
 }
