@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#define max 5000
 int main(void)
 {
     struct student

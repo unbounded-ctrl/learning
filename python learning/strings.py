@@ -57,3 +57,64 @@ print("\nQuestion 4:")
 print(((temp-56)*10))
 temp1 = str(temp)
 print("8."+temp1[4:])
+
+print("\n\nquiz3")
+print("\nQuestion 1:")
+trainees = ["John", [2, ["James","Mary"]]]
+print(trainees[1][0])
+
+print("\nQuestion 2:")
+print(trainees[1][1][0])
+
+print("\nQuestion 3:")
+trainees.append(56)
+print(trainees)
+
+print("\nQuestion 4:")
+trainees[1][1].insert(1,"Mike")
+print(trainees)
+trainees[1][0]=8
+print(trainees)
+
+print("\nQuestion 5:")
+trainees.remove("John")
+print(trainees)
+trainees[0][1].remove("Mary")
+print(trainees)
+
+print("\n\nquiz3")
+print("\nQuestion 1:")
+numbers = (10, 20, 30, 40, 50)
+numbers=list(numbers)
+numbers.append(60)
+numbers=tuple(numbers)
+
+print("\nQuestion 2:")
+values = (15, 5, 30, 25, 10)
+values=list(values)
+values.sort
+values=tuple(values)
+print(values)
+
+print("\nQuestion 3:")
+fruits = ("apple", "banana", "cherry", "banana", "mango", "banana")
+fruits=list(fruits)
+fruits.count("banana")
+fruits=[x for x in fruits if x != "banana"]
+fruits=tuple(fruits)
+print(fruits)
+
+print("\nQuestion 4:")
+names = ("Alice", "Bob", "Charlie", "David")
+names =list(names)
+names.sort(reverse=True)
+print (names)
+
+print("\nQuestion 5:")
+
+colors = ("red", "blue", "green")
+colors=list(colors)
+colors[1]="yellow"
+colors.extend(["purple","orange"])
+colors =tuple(colors)
+print(colors)
